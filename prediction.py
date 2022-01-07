@@ -14,7 +14,6 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 # loading and reading the dataset
-
 heart = pd.read_csv("heart_cleveland_upload.csv")
 
 # creating a copy of dataset so that will not affect our original dataset.
